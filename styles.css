@@ -129,6 +129,7 @@ section {
 	text-align: center;
 	align-content: center;
 	transition: 0.5s 0.2s transform ease-out;
+	opacity: 0;
 }
 .left-pers {
 	position: absolute;
@@ -143,6 +144,7 @@ section {
 	transform: translate(-110%);
 	background-color: #448AFF;
 	transition: 0.5s 0.2s transform ease-out;
+	opacity: 0;
 }
 .left-comp {
 	background-color: rgba(130,114,126, 1);
@@ -163,6 +165,7 @@ input:checked ~ .left-default {
 	position: static;
 	margin: 0;
 	transform: translate(0);
+	opacity: 1;
 }
 .main-left .aside {
 	font-size: 3vh;
