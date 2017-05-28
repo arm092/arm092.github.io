@@ -15,7 +15,7 @@ body {
 	font-family: 'Neucha', cursive;
 	color: white;
 	padding: 0;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 input {
 	display: none;
@@ -28,7 +28,7 @@ section {
 	display: grid;
 	grid-gap: 4px;
 	grid-template-columns: repeat(14, 1fr);
-	grid-template-rows: minmax(auto, 21vh) minmax(auto, 11vh) minmax(39.5vh, auto) minmax(auto, 10vh) minmax(auto, 10vh) minmax(auto, 4vh);
+	grid-template-rows: minmax(auto, 21vh) minmax(auto, 11vh) minmax(39vh, auto) minmax(auto, 10vh) minmax(auto, 10vh) minmax(auto, 4vh);
 	box-shadow: 1px 1px 5px black; 
 }
 .education {
@@ -65,8 +65,10 @@ section {
 	grid-template-rows: maxcontent mincontent;
 }
 .me-active {
+	position: absolute;
+	opacity: 0;
 	font-size: 3.4vh;
-	transform: translate(110%);
+	transform: translateY(-110%);
 	grid-row: 1/span 2;
 	z-index: 1;
 	display: grid;
@@ -86,7 +88,9 @@ section {
 	text-shadow: 1px 1px 2px black;
 }
 .me:hover .me-active {
-	transform: translate(0);
+	position: static;
+	opacity: 1;
+	transform: translateY(0);
 }
 .main-header {
 	grid-column: 1/span 12;
