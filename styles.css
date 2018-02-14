@@ -81,6 +81,7 @@ section {
 	font-size: 4vh;
 }
 .me > span {
+	margin-left: 5px;
 	position: absolute;
 	display: block;
 	z-index: 0;
