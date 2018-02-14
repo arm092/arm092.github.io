@@ -247,7 +247,7 @@ input:checked ~ .left-default {
 	background-color:  #C2185B;
 	cursor: default;
 	align-self: center;
-	margin-top: 4px;
+	margin-top: 5px;
 }
 section > * {
 	text-align: center;
