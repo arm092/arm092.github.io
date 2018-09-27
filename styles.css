@@ -239,7 +239,7 @@ input:checked ~ .left-default {
 .project-3 {
 	grid-column: 9/span 4;
 	grid-row: 4/6;
-	background: url('images/poker.jpg') no-repeat center;
+	background: url('images/friends.jpg') no-repeat center;
 	background-size: 100% auto;
 }
 .footer {
