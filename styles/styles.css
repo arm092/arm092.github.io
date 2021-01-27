@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.btn,.title {
+    font-family: 'Cousine', sans-serif;
+}
+
+#info img {
+    height: 100%;
+    width: auto;
+    max-height: 200px;
+}
+
+.workplace {
+    border-bottom: 1px solid #ddd;
+}
+
+.workplace img {
+    width: auto;
+    height: 30px;
+}
+
+.workplace h6 {
+    line-height: normal;
+}
+
+.bg-primary {
+    background-color: #6f42c1 !important;
+}
