@@ -28,3 +28,25 @@ h1,h2,h3,h4,h5,h6,.btn,.title {
 .bg-primary {
     background-color: #6f42c1 !important;
 }
+
+.social {
+    font-size: 24px;
+    transition: .2s ease-in;
+    opacity: 1;
+}
+
+.social:hover {
+    opacity: .8;
+}
+
+.link-gh {
+    color: #333;
+}
+
+.link-in {
+    color: #0077b5;
+}
+
+.link-tg {
+    color: #0088cc;
+}
